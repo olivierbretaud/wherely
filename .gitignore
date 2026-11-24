@@ -45,3 +45,6 @@ pnpm-debug.log*
 # Système
 .DS_Store
 Thumbs.db
+
+# Identité de marque locale (modèle versionné : brand.env.example)
+brand.env
