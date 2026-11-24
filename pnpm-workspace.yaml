@@ -1,0 +1,4 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  # apps/api est un projet Gradle : sans package.json, pnpm l'ignore

@@ -1,0 +1,47 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Réglages locaux de l'agent (racine, apps/api, apps/web et tout sous-dossier)
+**/.claude/settings.local.json
+
+# Dépendances
+node_modules/
+.pnpm-store/
+
+# Build front (Vite) et packages
+dist/
+dist-ssr/
+*.local
+coverage/
+storybook-static/
+playwright-report/
+test-results/
+
+# Build backend (Gradle)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+apps/api/out/
+apps/api/bin/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+.fleet/
+*.swp
+*~
+
+# Système
+.DS_Store
+Thumbs.db
